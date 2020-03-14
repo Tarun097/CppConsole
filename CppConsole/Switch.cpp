@@ -1,30 +1,30 @@
 #include <iostream>
 
-enum value { one, two, three, four, five };
+enum class Value { one, two, three, four, five };	// enum class
 
 int main()
 {
-	value val {three};
+	Value val {Value::three};
 
 	//condition for switch has to be integer values
 	//So we can also use characters, enum
 	
 	switch (val)
 	{
-	case one:
+	case Value::one:
 		std::cout << "One" << std::endl;
 		break;
-	case two:
+	case Value::two:
 		std::cout << "Two" << std::endl;
 		break;
-	case three:
+	case Value::three:
 		std::cout << "Three" << std::endl;
 		break;
-	case four:
+	case Value::four:
 		std::cout << "Four" << std::endl;
 		break;
-	case five:
-		std::cout << "Five" << std::endl;
+	case Value::five:
+		std::cout << "Five" << std::endl; 
 		break;
 
 	default:

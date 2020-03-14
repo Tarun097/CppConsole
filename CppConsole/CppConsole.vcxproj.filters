@@ -30,9 +30,6 @@
     <ClCompile Include="TypeCasting.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="StringLib.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Time.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -61,6 +58,27 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="ConstructorMemberInitializationList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticMemberinitialization.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CStyleString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CppString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultArguments.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enums.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionOverloading.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
