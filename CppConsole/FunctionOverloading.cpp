@@ -14,7 +14,16 @@ double printNum();
 
 std::cout << printNum();   //What function to call ?
 
+
+//Extra carefull while overlading funcs with default args
+
+int printNum(int num=100);
+int printNum(double num=100.0);
+
+std::cout << printNum();  //Which overload to call?
+
 */
+
 
 void print(int);
 void print(double);

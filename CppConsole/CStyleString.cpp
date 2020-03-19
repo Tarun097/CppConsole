@@ -23,7 +23,7 @@ int main(int argc, char* argv[])
 	std::cout << "myOtherString : " << myOtherString << std::endl; //This will give abcd + values till it find some null character
 
 	//Pointer to string literal , cannot be changed as literals are in readonly section of CS so const have to be used
-	const char* tempString = "Hello";
+	const char* tempString = "Hello"; //here const means you can change data pointed by tempString pointer i.e "Hello"
 	std::cout << "tempString : " << tempString << "\ntempString length: " << strlen(tempString) << std::endl;
 
 	/*----------------------------------------------------------------------------------------------*/
