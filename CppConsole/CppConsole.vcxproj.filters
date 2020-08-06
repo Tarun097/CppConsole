@@ -108,5 +108,17 @@
     <ClCompile Include="Template.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="StdArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvenOddUsingThreads.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadsUsingMemberFunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadWithLambda.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
